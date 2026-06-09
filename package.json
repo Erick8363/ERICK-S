@@ -1,0 +1,15 @@
+{
+  "name": "nyeri-polytechnic-lan-control",
+  "version": "1.0.0",
+  "description": "RBAC File Access Control System with Covert Audit Logging for Nyeri National Polytechnic LAN",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "dev": "bash start-dev.sh",
+    "stop": "bash stop.sh",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "keywords": ["rbac", "lan", "access-control", "audit-logging", "nodejs", "react", "supabase"],
+  "author": "Caleb Munene — Mojowebs Digital Agency",
+  "license": "MIT"
+}

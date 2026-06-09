@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+*.log
+*.pid
+/backend/uploads/
+/var/polytechnic/
+/tmp/polytechnic/
+.DS_Store
